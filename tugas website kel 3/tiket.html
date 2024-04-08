@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Ticket</title>
+   <link rel="stylesheet" href="file/tiket.css">
+</head>
+<body>
+     <div class="main">
+        <div class="menubar">
+            <img src="gambar/logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="#" target="_blank">TICKET</a></li>
+                    <li><a href="event.html" target="_blank">EVENT</a></li>
+                    <li><a href="history.html" target="_blank">HISTORY</a></li>
+                    <li><a href="profile.html" target="_blank">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </div>
+  <form>
+     <table>
+       <h4>PEMESANAN TIKET DANAU TOBA</h4>
+       <tr>
+          <td><label>NAMA</label></td>
+          <td>: <input type="text" id="inp_nama" name=""></td>
+       </tr>
+       <tr>
+          <td><label>NO KTP</label></td>
+          <td>: <input type="text" id="inp_ktp" name=""></td>
+       </tr>
+       <tr>
+          <td><label>TUJUAN WISATA</label></td>
+          <td> :
+              <select onchange="Tujuan()" id="inp_tujuan">
+                 <option>--PILIH TUJUAN WISATA--</option><br>
+                 <option value="kpl">KAPAL PESIAR DANAU TOBA</option>
+                 <option value="bkt">BUKIT HOLBUNG</option>
+                 <option value="dsa">DESA WISATA TOMOK</option>
+                 <option value="tmn">TAMAN EDEN 100</option>
+              </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label>HARGA TIKET</label></td>
+          <td>: <input type="text" id="tampil" disabled="true" name=""></td>
+        <tr>
+          <td><label>JUMLAH</label></td>
+          <td>: <input onkeyup="Total()" type="number" id="inp_jumlah" name=""></td>
+        </tr>
+        <tr>
+          <td><label>TOTAL</label></td>
+          <td>: <input type="text" id="total2" disabled="true" name=""></td>
+        </tr>
+  </table>
+  <center>
+    <input type="button" value="PESAN" onclick="pesan()" name="pesan">
+    <input type="button" value="BATAL"  onclick="batal()" name="batal">
+  </center>
+</form>
+  <footer>
+            &copy 2021 KELOMPOK 3 PEMROGRAMAN WEB DASAR
+  </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+body{
+ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../gambar/pic7.jpg);
+ background-size: cover;
+}
+
+.logo{
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+/*pengaturan menubar*/
+.menubar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 60px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 1px solid;
+    transition: 0.6s;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+/*pengaturan tampilan form*/
+form{
+ margin: 70px auto;
+ width: 500px;
+ background: black;
+ border-radius: 5px;
+ opacity: 0.6;
+}
+
+fieldset{
+ padding: 10px;
+}
+label{
+ padding: 10px;
+ color: white;
+ margin-bottom: 10px;
+ font-weight: bold;
+}
+fieldset{
+ font-weight: bold;
+}
+
+input[type='number'],input[type='text']{
+ padding: 4px;
+ width: 20em;
+ margin-bottom: 10px;
+ border: none;
+ background-color: transparent;
+ border-radius: 2px;
+ outline: none;
+ border-bottom: 1px solid white;
+ color: white;
+}
+select{
+ color: white;
+ padding: 2px;
+ margin-bottom: 10px;
+ border: none;
+ background-color: transparent;
+ border-radius: 2px;
+ outline: none;
+ border-bottom: 1px solid white;
+ cursor: pointer;
+ }
+option{
+ border: none;
+ background-color: transparent;
+ border-radius: 2px;
+ outline: none;
+ border-bottom: 1px solid white;
+ color: black;
+}
+h4{
+    text-align: center;
+    line-height: 4em;
+    color: white;
+}
+input[type='button']{
+ margin-bottom: 20px;
+ background-color: white;
+ border:none;
+ padding: 10px;
+ color: black;
+ border-radius: 3px;
+ cursor: pointer;
+}
+footer{
+    font-size: 12px;
+    margin-left: 20px;
+    color: white;
+}
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>ABOUT US</title>
+
+   <style type="text/css">
+   body{
+      background-image: url(pic4.jpg);
+      background-size: cover;
+   }
+
+   *{
+      box-sizing: border-box;
+   }
+
+   .team-section{
+      min-height: 100vh;
+      padding: 70px 50px;
+   }
+
+   .container{
+      max-width: 1170px;
+      margin: auto;
+   }
+
+   .row{
+      display: flex;
+      flex-warp: warp;
+   }
+
+   .team-section .section-title{
+      flex-basis: 100%;
+      max-width: 100%;
+      margin-bottom: 70px;
+   }
+
+   .team-section .section-title h1{
+      font-size: 40px;
+      text-align: center;
+      margin:0;
+      color: #ffffff;
+      font-weight: 700;
+   }
+
+   .team-section .section-title p{
+      font-size: 16px;
+      text-align: center;
+      margin:15px 0 0;
+      margin-top: 30px;
+      color: #ffffff;
+   }
+
+   .border{
+      display: block;
+      width: 200px;
+      height: 3px;
+      margin: auto;
+      margin-top: 40px;
+      background: #ffffff;
+   }
+
+   .team-section .section-title h2{
+      font-size: 40px;
+      text-align: center;
+      margin:0;
+      margin-top: 40px;
+      color: #ffffff;
+      font-weight: 700;
+   }
+
+   .team-section .team-items{
+      flex-basis: 100%;
+      max-width: 100%;
+      display: flex;
+      flex-warp: warp;
+      font-weight: 700;
+      justify-content: space-around;
+   }
+
+   .team-section .team-items .item{
+      flex-basis: calc(25% - 30px);
+      max-width: calc(25% - 30px);
+      transition: all .5s ease;
+   }
+
+   .team-section .team-items .item img{
+      display: block;
+      width: 90%;
+      height: 90%;
+      border-radius: 8px;  
+   }
+
+   .team-section .team-items .item .inner{
+      position: relative;
+      z-index: 11;
+      padding: 0 15px;
+   }
+
+   .team-section .team-items .item .inner .info{
+      background-color: #464044;
+      text-align: center;
+      border-radius: 8px;
+      padding: 20px 15px;
+      transition: all .5s ease;
+      margin-top: -40px;
+      margin-left: -5px;
+      margin-right: 20px;  
+   }
+
+   .team-section .team-items .item:hover .info{
+      transform: translateY(-20px);
+   }
+
+   .team-section .team-items .item:hover{
+      transform: translateY(-10px);
+   }
+
+   .team-section .team-items .item .inner .info h5{
+      margin:0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #ffffff;
+   }
+
+   .team-section .team-items .item .inner .info p{
+      font-size: 16px;
+      font-weight: 400;
+      color: #c5c5c5;
+      margin: 10px 0 0;
+   }
+
+   
+   </style>
+</head>
+
+<body>
+   
+   <section class="team-section">
+      <div class="container">
+         <div class="row">
+            <div class="section-title">
+               <h1>ABOUT US</h1>
+               <p>We Made This Website to Fulfill The Tasks of Basic Web Programming in Semester 5 at The University of Indraprasta PGRI Jakarta</p>
+               <span class="border"></span>
+               <h2>Meet Our Team</h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="team-items">
+               <div class="item">
+                  <img src="poto/tim1.jpg" alt="team" />
+                  <div class="inner">
+                     <div class="info">
+                        <h5>Agessya Feby Priyandini</h5>
+                        <p>2019.435.016.41</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <img src="poto/tim2.jpg" alt="team" />
+                  <div class="inner">
+                     <div class="info">
+                        <h5>Rahmat Pratama</h5>
+                        <p>2019.435.016.80</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <img src="poto/tim3.jpg" alt="team" />
+                  <div class="inner">
+                     <div class="info">
+                        <h5>Veisha Risna Rizqyka</h5>
+                        <p>2019.435.017.02</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <img src="poto/tim4.jpg" alt="team" />
+                  <div class="inner">
+                     <div class="info">
+                        <h5>Leviana Nanda Ramadhanti</h5>
+                        <p>2019.435.017.07</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <img src="poto/tim5.jpg" alt="team" />
+                  <div class="inner">
+                     <div class="info">
+                        <h5>Arinda Cahyani Azizah</h5>
+                        <p>2019.435.017.31</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+</body>
+
+</html>
